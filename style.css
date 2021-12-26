@@ -1,14 +1,65 @@
-.header {
+body {
+  min-width: 800px;
+  border: none;
+  font-family: sans-serif;
 }
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  font-style: normal;
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+  margin-inline: 16px;
+}
+
+button {
+  background-color: #3882f6;
+  color: white;
+  font-weight: bold;
+  height: 2.5em;
+  width: 8em;
+  min-width: 8em;
+  border: 0 solid transparent;
+  border-radius: 0.5em;
+  margin-block: 8px;
+  cursor: pointer;
+}
+
+.header {
+  background-color: #1f2937;
+  padding-inline: 15vw;
+  padding-block: 12px;
+}
+
 .part-a {
+  background-color: #1f2937;
+  padding-inline: 15vw;
+  padding-block: 42px;
 }
 .part-b {
+  background-color: white;
+  padding-inline: 15vw;
+  padding-block: 42px;
 }
 .part-c {
+  background-color: #e5e7eb;
+  padding-inline: 15vw;
+  padding-block: 84px;
 }
 .part-d {
+  background-color: white;
+  padding-inline: 15vw;
+  padding-block: 84px;
+  color: #f9faf8;
 }
 .footer {
+  background-color: #1f2937;
+  padding-inline: 15vw;
+  padding-block: 21px;
 }
 
 .flex-row {
@@ -25,13 +76,78 @@
   flex-grow: 1;
 }
 
+.flex-ctr {
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-end {
+  justify-content: flex-end;
+}
+
+.wht-border {
+  border-color: #e5e7eb;
+  border-width: 2px;
+}
+
 * {
-  border: 1px solid indigo;
+  margin: 0;
+  padding: 0;
 }
 
 .tile {
+  margin: 21px;
+  width: 100px;
+}
+
+.hero-img {
+  width: 300px;
+  height: 150px;
+  display: inline-block;
+}
+
+.tile-img {
   width: 100px;
   height: 100px;
-  border: 3px solid blue;
+  display: inline-block;
+  border: 3px solid #3882f6;
   border-radius: 8px;
+}
+
+.hero-main-text {
+  font-size: 48px;
+  font-weight: bolder;
+  color: #f9faf8;
+}
+
+.hero-secondary-text {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.header-logo-text {
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+.call-to-action {
+  background-color: #3882f6;
+  padding-inline: 84px;
+  padding-block: 42px;
+  border-radius: 16px;
+}
+
+.information-header-text {
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1f2937;
+}
+
+.quote-text {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: lighter;
+  color: #1f2937;
+  width: 50vw;
+  min-width: 400px;
 }
